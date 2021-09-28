@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>BlackJack</h2>
+        <h3><span id="blackjack-result">Let's Play</span></h3>
+
+        <div class="flex-row-1">
+            <div id="YourBox">
+                <h2>You: <span id="YourResult">0</span></h2>
+            </div>
+
+            <div id="DealerBox">
+                <h2>Dealer: <span id="DealerResult">0</span></h2>
+            </div>
+        </div>
+
+        <div class="flex-row-2">
+          <div>
+              <button class="btn btn-primary mr-2" id="hitbtn">Hit</button>
+              <button class="btn btn-warning mr-2" id="standbtn">Stand</button>
+              <button class="btn btn-danger mr-2" id="dealbtn">Deal</button>
+          </div>
+        </div>
+
+        <div class="flex-row-3">
+            <table id="tab" >
+                <tr>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Draws</th>
+                </tr>
+                <tr>
+                    <td><span id="wins">0</span></td>
+                    <td><span id="losses">0</span></td>
+                    <td><span id="draws">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body
+{
+    font-family: "Yeon Sung";
+    background-image: url('im.png');
+    background-size: 200px 200px;
+}
+.container
+{
+    background-color: #000000;
+    /* background-image: linear-gradient(90deg, #0c331e 0%, #3ba70e 50%, #0c331e 100%); */
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    width: 75%;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    color: white;
+}
+
+.flex-row-1, .flex-row-2, .flex-row-3
+{
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-row-1 div{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+
+.flex-row-1 img
+{
+    width: 25%;
+    padding: 10px;
+}
+#hitbtn, #standbtn, #dealbtn
+{
+    border-radius: 21px;
+}
+
+
+table , th,td
+{
+    background: rgb(212, 7, 7);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+
+.flex-row-3
+{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
